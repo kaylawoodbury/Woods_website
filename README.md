@@ -1,68 +1,84 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Work in progress
 
-## Available Scripts
+# Website for A. Woods 
 
-In the project directory, you can run:
+![ScreenShot image]()
 
-### `yarn start`
+### So what is this project?
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `yarn test`
+### Let's get started
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+##### Fork & clone
+To start working on this project you will need to fork [This Repo](https://github.com/), as well as the [API](https://github.com/). Clone it down to your local workspace, if more than two Repos we recommend that you start with the API. Make sure you have a text editor, we recommend [VSCode](https://code.visualstudio.com/) but there are many to choose from.
 
-### `yarn build`
+##### This app was built with...
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* [React](https://reactjs.org/)
+* [Ruby on Rails](https://rubyonrails.org/)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+##### ... and tested using
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* [Cypress](https://www.cypress.io/)
+* [RSpec](https://rspec.info/)
 
-### `yarn eject`
+##### ... additional packages and gems includes
+* [J-tockAuth](https://www.npmjs.com/package/j-tockauth)
+* [Axios](https://www.npmjs.com/package/axios)
+* [React-Redux](https://react-redux.js.org/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+##### we love to deploy with...
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+* [Netlify](https://www.netlify.com/)
+* [Heroku](https://www.heroku.com/)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+##### ... and don't forget to monitor your test coverage...
 
-## Learn More
+* [Semaphore](https://semaphoreci.com/)
+* [Coveralls](https://coveralls.io/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+##### Installments
+Now let's get to it shall we?
+... get the gems needed
 
-### Code Splitting
+```
+bundle install
+```
+... start the server
+```
+rails s
+```
+Awesome! Now you should be good to go on the back-end, let's continue on the front end...
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+... get [Yarn](https://yarnpkg.com/)
+```
+yarn install
+```
+... start Cypress to run some tests
+```
+yarn run cy:open
+```
+... start the React application and run it on your local host
+```
+yarn start
+```
+**... There, now you should be good to go. make some coder magic!**
 
-### Analyzing the Bundle Size
+### Updates and improvements
+This
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+### Additional Documentation
+For addition details about the code, please click here. This documentation go over the code functionality and set more thoroughly. 
 
-### Making a Progressive Web App
+### Authors
+These are the people behind this amazing application:
+* [Kayla Woodbury](https://github.com/kaylawoodbury)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+### Acknowledgements
+We would like to show our appreciation to the following people:
 
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### License
+We operate under the [MIT License](https://en.wikipedia.org/wiki/MIT_License).
