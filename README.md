@@ -4,8 +4,10 @@ Work in progress
 
 ![ScreenShot image]()
 
-### So what is this project?
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d3f5aef9-2fde-4d50-a7d4-1af7a26350a2/deploy-status)](https://app.netlify.com/sites/sagewoods-books/deploys)
 
+### So what is this project?
+This is a website for the author Sage Woods to showcase her work, personality and blog. 
 
 
 ### Let's get started
@@ -33,12 +35,6 @@ To start working on this project you will need to fork [This Repo](https://githu
 
 * [Netlify](https://www.netlify.com/)
 * [Heroku](https://www.heroku.com/)
-
-##### ... and don't forget to monitor your test coverage...
-
-* [Semaphore](https://semaphoreci.com/)
-* [Coveralls](https://coveralls.io/)
-
 
 ##### Installments
 Now let's get to it shall we?
@@ -70,11 +66,9 @@ yarn start
 ### Updates and improvements
 This
 
-### Additional Documentation
-For addition details about the code, please click here. This documentation go over the code functionality and set more thoroughly. 
 
 ### Authors
-These are the people behind this amazing application:
+These are the people behind this application:
 * [Kayla Woodbury](https://github.com/kaylawoodbury)
 
 ### Acknowledgements
