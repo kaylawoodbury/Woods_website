@@ -1,13 +1,14 @@
 import React from 'react'
 import {StartPage} from './FullScreenImages'
 import Feed from './Feed'
+import BoolCarousel from './BookCarousel'
 
 const HomePage = () => {
   return (
     <>
     <StartPage/>
     <Feed/>
-    <h1>Upcoming books or maybe a book caresol</h1>
+    <BoolCarousel/>
     </>
   )
 }
